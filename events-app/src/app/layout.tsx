@@ -2,15 +2,16 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+import { Montserrat, Open_Sans } from "next/font/google";
+
+const montserrat = Montserrat({
+  subsets: ["latin"], // Use 'latin' as it's most commonly used
+  weight: ["400", "700"], // Specify the weights you need (regular and bold in this case)
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  weight: ["400", "700"], // Specify the weights you need
 });
 
 export const metadata: Metadata = {
@@ -25,9 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${montserrat.className} ${openSans.className}`}>
         {children}
       </body>
     </html>

@@ -10,6 +10,9 @@ const EventCard = () => {
           alt="picture"
           className="absolute inset-0 w-full h-full object-cover rounded-t-lg"
         />
+        <div className="absolute top-3 left-2  bg-[#2B293D] text-white px-4 py-1 rounded-2xl  text-[12px]">
+          Ethiopia
+        </div>
         <div className="absolute bottom-0 left-0   bg-[#e7cc53] text-black px-4 py-1 rounded-sm text-[12px]">
           Travel & Adventure
         </div>
