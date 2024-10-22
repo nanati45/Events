@@ -1,5 +1,6 @@
 import FilteredEvents from "@/app/components/Filters/FilteredEvents";
 import Filters from "@/app/components/Filters/Filters";
+import Footer from "@/app/components/Footer/Footer";
 import Header from "@/app/components/Header/Header";
 import ExploreEvents from "@/app/components/Search/ExploreEvents";
 import SearchBar from "@/app/components/Search/Search";
@@ -14,6 +15,7 @@ const page = () => {
         <Filters />
         <FilteredEvents />
       </div>
+      <Footer />
     </div>
   );
 };

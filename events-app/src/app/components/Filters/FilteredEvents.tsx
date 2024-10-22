@@ -10,8 +10,8 @@ const FilteredEvents = () => {
     setSortOption(e.target.value);
   };
   return (
-    <div className="flex flex-col items-center  p-8 w-3/4 ">
-      <div className=" top-6 right-8 flex   items-center space-x-2 mb-6">
+    <div className="flex flex-col   p-8 w-3/4 ">
+      <div className=" top-6 right-8 flex justify-end  items-center space-x-2 mb-6">
         <p className="text-gray-600">Sort by:</p>
         <select
           value={sortOption}
@@ -24,7 +24,14 @@ const FilteredEvents = () => {
           <option value="Price: High to Low">Price: High to Low</option>
         </select>
       </div>
-      <div className="flex">
+      <div className="grid grid-cols-2">
+        <FilteredEventsCard />
+        <FilteredEventsCard />
+        <FilteredEventsCard />
+        <FilteredEventsCard />
+        <FilteredEventsCard />
+        <FilteredEventsCard />
+        <FilteredEventsCard />
         <FilteredEventsCard />
       </div>
     </div>
