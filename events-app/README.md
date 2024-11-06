@@ -85,3 +85,7 @@ npm run dev
 2. Search and Filter: Use the search bar and filter options to find events of interest.
 3. Event Registration: Click on an event to see more details and register.
 4. User Authentication: Log in to manage your event registrations from the dashboard.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
