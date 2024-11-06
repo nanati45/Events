@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Events App
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The Events App allows users to browse, register, and manage events. It includes functionalities such as event search, filtering by categories, event booking, and more. The app provides an intuitive user interface to ensure a seamless experience for all users.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Features:
+
+1. Browse upcoming events.
+2. Search and filter events by categories.
+3. Register for events and view event details.
+4. User authentication and session management.
+
+## Technologies Used
+
+1. Frontend: Next.js, Tailwind CSS, React
+2. Authentication: Next Auth
+3. State Management: Redux
+4. Styling : Tailwind CSS
+
+## Screenshots
+
+Home Page
+
+[!Homepage](/assets/screenshots/h1.png)
+[!Homepage](/assets/screenshots/h2.png)
+[!Homepage](/assets/screenshots/h3.png)
+[!Homepage](/assets/screenshots/h4.png)
+
+Signup
+[!Signup](/assets/screenshots/su.png)
+
+Signin
+[!Signin](/assets/screenshots/si.png)
+
+Filters
+[!filters](/assets/screenshots/f1.png)
+[!filters](/assets/screenshots/f2.png)
+
+Event Details
+[!Details](/assets/screenshots/d1.png)
+[!Details](/assets/screenshots/d2.png)
+[!Details](/assets/screenshots/d3.png)
+
+Create Event
+[!create](/assets/screenshots/c1.png)
+[!create](/assets/screenshots/c2.png)
+[!create](/assets/screenshots/c3.png)
+[!create](/assets/screenshots/c4.png)
+[!create](/assets/screenshots/c42.png)
+[!create](/assets/screenshots/c43.png)
+
+Interested / saved events
+[!saved](/assets/screenshots/i.png)
+
+## Setup Instructions
+
+1. Clone the Repository
+
+```
+git clone https://github.com/nanati45/events-app.git
+cd events-app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Run the Development Server
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## How to Use the App
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Browse Events: On the home page, view a list of all available events.
+2. Search and Filter: Use the search bar and filter options to find events of interest.
+3. Event Registration: Click on an event to see more details and register.
+4. User Authentication: Log in to manage your event registrations from the dashboard.
