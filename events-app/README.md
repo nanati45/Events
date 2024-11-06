@@ -86,6 +86,10 @@ npm run dev
 3. Event Registration: Click on an event to see more details and register.
 4. User Authentication: Log in to manage your event registrations from the dashboard.
 
+## Collaborate
+
+We welcome contributions to improve and expand this events app! Whether you have suggestions for new features, find bugs, or would like to help with documentation, all contributions are appreciated.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
