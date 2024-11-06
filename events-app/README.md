@@ -22,41 +22,41 @@ The Events App allows users to browse, register, and manage events. It includes 
 
 Home Page
 
-![Homepage](./assets/screenshots/h1.png)
-![Homepage](./assets/screenshots/h2.png)
-![Homepage](./assets/screenshots/h3.png)
-![Homepage](./assets/screenshots/h4.png)
+![Homepage](/assets/screenshots/h1.png)
+![Homepage](/assets/screenshots/h2.png)
+![Homepage](/assets/screenshots/h3.png)
+![Homepage](/assets/screenshots/h4.png)
 
 Signup
-![Signup](./assets/screenshots/su.png)
+![Signup](/assets/screenshots/su.png)
 
 Signin
-![Signin](./assets/screenshots/si.png)
+![Signin](/assets/screenshots/si.png)
 
 Filters
-![filters](./assets/screenshots/f1.png)
-![filters](./assets/screenshots/f2.png)
+![filters](/assets/screenshots/f1.png)
+![filters](/assets/screenshots/f2.png)
 
 Event Details
-![Details](./assets/screenshots/d1.png)
-![Details](./assets/screenshots/d2.png)
-![Details](./assets/screenshots/d3.png)
+![Details](/assets/screenshots/d1.png)
+![Details](/assets/screenshots/d2.png)
+![Details](/assets/screenshots/d3.png)
 
 Create Event
-![create](./assets/screenshots/c1.png)
-![create](./assets/screenshots/c2.png)
-![create](./assets/screenshots/c3.png)
-![create](./assets/screenshots/c4.png)
-![create](./assets/screenshots/c42.png)
-![create](./assets/screenshots/c43.png)
+![create](/assets/screenshots/c1.png)
+![create](/assets/screenshots/c2.png)
+![create](/assets/screenshots/c3.png)
+![create](/assets/screenshots/c4.png)
+![create](/assets/screenshots/c42.png)
+![create](/assets/screenshots/c43.png)
 
 Interested / saved events
-![saved](./assets/screenshots/i.png)
+![saved](/assets/screenshots/i.png)
 
 Account Setting Page
-![accounts](./assets/screenshots/a1.png)
-![accounts](./assets/screenshots/a2.png)
-![accounts](./assets/screenshots/a3.png)
+![accounts](/assets/screenshots/a1.png)
+![accounts](/assets/screenshots/a2.png)
+![accounts](/assets/screenshots/a3.png)
 
 ## Setup Instructions
 
