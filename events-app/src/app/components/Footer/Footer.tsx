@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="border-t px-4 py-2 border-[#A9A9A9] text-[#A9A9A9] bg-[#2B293D] flex justify-center">
+      <p className="border-t px-4 py-2 border-[#A9A9A9] text-[#A9A9A9] bg-[#2B293D] w-full flex justify-center">
         {" "}
         &copy; 2023 Eventify. All rights reserved.
       </p>

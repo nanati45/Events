@@ -5,13 +5,13 @@ import "./globals.css";
 import { Montserrat, Open_Sans } from "next/font/google";
 
 const montserrat = Montserrat({
-  subsets: ["latin"], // Use 'latin' as it's most commonly used
-  weight: ["400", "700"], // Specify the weights you need (regular and bold in this case)
+  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 const openSans = Open_Sans({
   subsets: ["latin"],
-  weight: ["400", "700"], // Specify the weights you need
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -26,9 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} ${openSans.className}`}>
-        {children}
-      </body>
+      <body className={`${openSans.className} `}>{children}</body>
     </html>
   );
 }

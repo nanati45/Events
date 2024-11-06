@@ -39,7 +39,7 @@ const SearchBar = () => {
       {/* Location Selector */}
       <div className="flex items-center border-l px-4 py-2">
         <FaMapMarkerAlt className="text-gray-500" />
-        <span className="px-2">{location}</span>
+        <span className="px-2">Ethiopia</span>
         <FaChevronDown className="text-gray-500 cursor-pointer" />
       </div>
     </div>

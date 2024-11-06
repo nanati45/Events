@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div>
       <Header />
-      <Review />
+      <Ticketing />
       <Footer />
     </div>
   );
