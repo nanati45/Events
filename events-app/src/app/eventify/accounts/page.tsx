@@ -12,7 +12,7 @@ const page = () => {
       <Header />
       <div className="flex">
         <Setting />
-        <SetPassword />
+        <AccountInfo />
       </div>
       <Footer />
     </div>

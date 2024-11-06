@@ -30,13 +30,12 @@ const filters: filtersType[] = [
 const Filters = () => {
   const [showMore, setShowMore] = useState<{
     [key: string]: boolean | undefined;
-  }>({}); // State to track the showMore status for each section
+  }>({});
 
-  // Toggle showing more or less options for a specific section
   const toggleShowMore = (title: string) => {
     setShowMore((prev) => ({
       ...prev,
-      [title]: !prev[title], // Toggle the value for the specific section
+      [title]: !prev[title],
     }));
   };
 
