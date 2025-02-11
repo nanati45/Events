@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 
 const Header = () => {
   return (
     <div className="flex justify-between items-center w-full text-white font-montserrat bg-[#2B293D] ">
       <div className=" pl-10 py-2 flex items-center justify-center ">
-        <img src="/assets/images/logo.png" alt="logo" className="w-7/8 h-10" />
+        <Image src="/assets/images/logo.png" alt="logo" className="w-7/8 h-10" width={7/8} height={10} />
       </div>
       <div className="flex items-center justify-center space-x-12">
         <p>Home</p>

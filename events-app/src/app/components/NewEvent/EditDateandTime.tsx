@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const EditDateandTime = () => {
@@ -44,10 +45,11 @@ const EditDateandTime = () => {
             </label>
             <div className="flex space-x-2 border rounded-md">
               <div className="bg-gray-300 p-1 rounded-sm">
-                <img
+                <Image
                   src="/assets/images/date.png"
                   alt="date"
                   className="w-6 h-6"
+                  width={6} height={6}
                 />
               </div>
               <input type="text" placeholder="DD/MM/YY" />
@@ -59,10 +61,11 @@ const EditDateandTime = () => {
             </label>
             <div className="flex space-x-2 border rounded-md">
               <div className="bg-gray-300 p-1 rounded-sm">
-                <img
+                <Image
                   src="/assets/images/time.png"
                   alt="time"
                   className="w-6 h-6"
+                  width={6} height={6}
                 />
               </div>
               <input type="text" placeholder="DD/MM/YY" />
@@ -74,10 +77,11 @@ const EditDateandTime = () => {
             </label>
             <div className="flex space-x-2 border rounded-md">
               <div className="bg-gray-300 p-1 rounded-sm">
-                <img
+                <Image
                   src="/assets/images/date.png"
                   alt="date"
                   className="w-6 h-6"
+                  width={6} height={6}
                 />
               </div>
               <input type="text" placeholder="DD/MM/YY" />

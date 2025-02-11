@@ -17,7 +17,7 @@ const GetStarted = () => {
           Events specially curated for you!
         </h1>
         <p className="text-2xl mt-4">
-          Get event suggestions tailored to your interests! Don't let your
+          Get event suggestions tailored to your interests! Don&apos;t let your
           favorite events slip away.
         </p>
 

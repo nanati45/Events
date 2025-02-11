@@ -1,5 +1,6 @@
 import React from "react";
 import StandardTicket from "./StandardTicket";
+import Image from "next/image";
 
 const SelectTicket = () => {
   return (
@@ -20,7 +21,7 @@ const SelectTicket = () => {
         <div>
           <button className="flex text-[20px] w-full rounded-md text-white bg-[#2D2C2C] px-10 py-2 items-center justify-center">
             Proceed
-            <img src="/assets/images/next.png" alt="next" className="w-6 h-6" />
+            <Image src="/assets/images/next.png" alt="next" className="w-6 h-6"  width={6} height={6}/>
           </button>
         </div>
       </div>

@@ -1,11 +1,12 @@
 import React from "react";
 import StandardTicket from "./StandardTicket";
+import Image from "next/image";
 
 const OrderSummary = () => {
   return (
     <div className="w-1/3 items-center">
       <div className="flex space-x-3 pl-2 bg-white p-2 items-center rounded-sm shadow-md mb-6">
-        <img src="/assets/images/arrow.png" alt="arrow" className="w-8 h-8" />
+        <Image src="/assets/images/arrow.png" alt="arrow" className="w-8 h-8"  width={8} height={8}/>
         <h1 className="font-extrabold bg-white p-2 text-[#2D2C2C] text-[20px] ">
           Order Summarry
         </h1>
@@ -29,7 +30,7 @@ const OrderSummary = () => {
         </div>
         <div>
           <button className="flex text-[20px] w-full rounded-md text-white bg-[#287921] px-10 py-2 items-center justify-center">
-            <img src="/assets/images/pay.png" alt="next" className="w-6 h-6" />
+            <Image src="/assets/images/pay.png" alt="next" className="w-6 h-6"  width={6} height={6}/>
             Pay Now
           </button>
         </div>

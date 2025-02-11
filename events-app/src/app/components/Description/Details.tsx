@@ -6,19 +6,22 @@ import TicketInfo from "./TicketInfo";
 import Description from "./Description";
 import Tags from "./Tags";
 import EventCard from "../EventCard/EventCard";
+import Image from "next/image";
 
 const Details = () => {
   return (
     <div className="flex flex-col px-20 gap-8 w-full relative">
       <div className="absolute top-4 left-3">
-        <img
+        <Image
           src="/assets/images/arrow.png"
           alt="leftarrow"
           className="w-10 h-10"
+          width={10}
+          height={10}
         />
       </div>
       <div className="my-6 w-full">
-        <img src="/assets/images/banner.png" alt="banner" />
+        <Image src="/assets/images/banner.png" alt="banner" />
       </div>
       <div>
         <div className=" flex justify-between">
@@ -26,11 +29,12 @@ const Details = () => {
             The Sound of Chirstmas 2025
           </h1>
           <div className="flex">
-            <img src="/assets/images/like.png" alt="like" className="w-8 h-8" />
-            <img
+            <Image src="/assets/images/like.png" alt="like" className="w-8 h-8" width={8} height={8}/>
+            <Image
               src="/assets/images/share.png"
               alt="share"
               className="w-8 h-8"
+              width={8} height={8}
             />
           </div>
         </div>
@@ -50,13 +54,13 @@ const Details = () => {
         </div>
       </div>
       <div className="space-y-4 relative">
-        <img
+        <Image
           src="/assets/images/leftarrow.png"
           alt="leftarrow"
           className="w-10 h-10 absolute bottom-4 left-3"
         />
 
-        <img
+        <Image
           src="/assets/images/rightarrow.png"
           alt="leftarrow"
           className="w-10 h-10 absolute bottom-4 right-3"

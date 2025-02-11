@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import EventCard from "../EventCard/EventCard";
 import FilteredEventsCard from "./FilteredEventsCard";
 
 const FilteredEvents = () => {

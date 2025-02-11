@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const CreateEvent = () => {
@@ -23,7 +24,7 @@ const CreateEvent = () => {
           </p>
         </div>
         <button className="text-[#2D2C3C] flex items-center ml-4 bg-yellow-300 font-semibold px-8 py-4 mt-4 rounded-md ">
-          <img src="/assets/images/create.png" alt="create" width={20} />
+          <Image src="/assets/images/create.png" alt="create" width={20} height={20} />
           Create Event
         </button>
       </div>

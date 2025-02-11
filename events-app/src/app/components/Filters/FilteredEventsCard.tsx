@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const FilteredEventsCard = () => {
@@ -5,7 +6,7 @@ const FilteredEventsCard = () => {
     <div className="w-full pb-6 h-[200px] flex space-x-6 overflow-hidden">
       {/* Image div */}
       <div className="w-[40%] relative">
-        <img
+        <Image
           src="/assets/images/des.jpg"
           alt="picture"
           className="absolute rounded-lg inset-0 w-full h-full object-cover"
@@ -14,10 +15,11 @@ const FilteredEventsCard = () => {
           Travel & Adventure
         </div>
         <div className="absolute right-3 top-3 shadow-lg px-4 py-1 rounded-sm">
-          <img
+          <Image
             src="/assets/images/fav1.png"
             alt="favorite"
             className="w-10 h-10"
+            width={10} height={10}
           />
         </div>
       </div>
@@ -28,10 +30,11 @@ const FilteredEventsCard = () => {
         <p className="font-medium text-[14px]">Nov 26 - 27 | Adama</p>
         <p className="font-medium text-[12px]">8:30 AM - 7:30 PM</p>
         <div className="flex items-center font-medium text-[13px] space-x-2">
-          <img
+          <Image
             src="/assets/images/image.png"
             alt=""
             className="w-[16px] h-[14px]"
+            width={16} height={14}
           />
           <p>INR 1,400</p>
         </div>

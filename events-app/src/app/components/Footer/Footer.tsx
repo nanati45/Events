@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
@@ -54,10 +55,11 @@ const Footer = () => {
           <h1 className="font-bold text-lg">Download The App</h1>
           <div className="mt-2">
             <div className="flex items-center mb-4 border rounded-lg p-4">
-              <img
+              <Image
                 src="/assets/images/play.png"
                 alt="Google Play"
                 className="h-8 w-8"
+              width={8} height={8}
               />
               <div className="ml-2">
                 <p className="text-sm">Get it on</p>
@@ -65,10 +67,11 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex items-center border rounded-lg p-4">
-              <img
+              <Image
                 src="/assets/images/apple.png"
                 alt="App Store"
                 className="h-8 w-8"
+              width={8} height={8}
               />
               <div className="ml-2">
                 <p className="text-sm">Download on the</p>

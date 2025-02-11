@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 
 const Signin = () => {
   return (
     <div className="flex w-full h-screen  bg-[#2D2C3C]">
       <div className="w-1/3">
-        <img
+        <Image
           src="/assets/images/logo.png"
           alt="logo"
           width={200}
@@ -19,15 +20,16 @@ const Signin = () => {
         <h1 className="font-extrabold text-[32px] text-[#2D2C3C]">Login</h1>
         <div className="mt-2 flex space-x-6 ">
           <div className="flex items-center w-1/2  border rounded-xl px-12 py-4">
-            <img
+            <Image
               src="/assets/images/google.png"
               alt="Google "
               className="h-8 w-8"
+              width={8} height={8}
             />
             <p className="text-sm pl-2">Login with Google </p>
           </div>
           <div className="flex items-center border  w-1/2 rounded-xl px-12 py-4">
-            <img src="/assets/images/fb.png" alt="fb" className="h-8 w-8" />
+            <Image src="/assets/images/fb.png" alt="fb" className="h-8 w-8" width={8} height={8}/>
             <p className="text-sm pl-2">Login with Facebook </p>
           </div>
         </div>
@@ -58,7 +60,7 @@ const Signin = () => {
           Login
         </button>
         <p>
-          Don't have an account? <a href="">Signup</a>{" "}
+          Don&apos;t have an account? <a href="">Signup</a>{" "}
         </p>
       </div>
     </div>

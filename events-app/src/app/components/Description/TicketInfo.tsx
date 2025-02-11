@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const TicketInfo = () => {
@@ -7,7 +8,7 @@ const TicketInfo = () => {
         Ticket Information
       </h1>
       <div className="flex space-x-2">
-        <img src="/assets/images/money.png" alt="money" className="w-6 h-6" />
+        <Image src="/assets/images/money.png" alt="money" className="w-6 h-6"  width={6} height={6}/>
         <p>Standard Ticket: 200 birr each</p>
       </div>
     </div>

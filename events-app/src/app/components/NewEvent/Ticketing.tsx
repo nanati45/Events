@@ -1,12 +1,14 @@
+import Image from "next/image";
 import React from "react";
 
 const Ticketing = () => {
   return (
     <div className="flex w-full flex-col items-center justify-center py-6 relative">
-      <img
+      <Image
         src="/assets/images/arrow.png"
         alt="arrow"
         className="absolute left-6 top-6 w-8 h-8"
+        width={8} height={8}
       />
       <div className="w-5/6 space-y-6">
         <div className="space-y-2">
@@ -17,7 +19,7 @@ const Ticketing = () => {
           <p className="font-semibold">Time</p>
         </div>
         <div className="text-center">
-          <img src="/assets/images/progress3.png" alt="progress" />
+          <Image src="/assets/images/progress3.png" alt="progress" />
         </div>
         <div className="space-y-3 mt-5">
           <h1 className=" text-[#2d2c2c] text-[20px]">
@@ -25,22 +27,24 @@ const Ticketing = () => {
           </h1>
           <div className="flex space-x-4">
             <div className="px-20 py-5 flex flex-col items-center justify-center border rounded-md">
-              <img
+              <Image
                 src="/assets/images/ticket.png"
                 alt="ticket"
                 className="w-20 h-20"
+                width={20} height={20}
               />
               <p>Ticketed Event</p>
               <p>My event requires ticket for entry</p>
             </div>
             <div className="px-20 py-5 flex flex-col items-center justify-center border rounded-md">
-              <img
+              <Image
                 src="/assets/images/free.png"
                 alt="free"
                 className="w-20 h-20"
+                width={20} height={20}
               />
               <p>Free Event</p>
-              <p>I'm running a free event</p>
+              <p>I&apos;m running a free event</p>
             </div>
           </div>
         </div>
@@ -63,10 +67,11 @@ const Ticketing = () => {
               <label className=" text-right">Ticket Price</label>
               <div className="flex space-x-2 border rounded-md">
                 <div className="bg-gray-300 p-1 rounded-sm">
-                  <img
+                  <Image
                     src="/assets/images/ticket.png"
                     alt="date"
                     className="w-6 h-6"
+                    width={6} height={6}
                   />
                 </div>
                 <input type="text" placeholder="0.00" />

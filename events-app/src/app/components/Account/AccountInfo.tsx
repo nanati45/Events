@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileInfo from "./ProfileInfo";
 import ContactDetail from "./ContactDetail";
-
+import Image from "next/image";
 const AccountInfo = () => {
   return (
     <div className="w-3/4 space-y-8 mb-10">
@@ -11,15 +11,19 @@ const AccountInfo = () => {
       <div className="space-y-5">
         <p className="text-[18px] text-[#2D2C2C] pl-48">Profile Photo</p>
         <div className="relative w-1/4 ml-36">
-          <img
+          <Image
             src="/assets/images/pp.png"
             alt="pp"
             className="w-15 h-15 px-8"
+            width={15}
+            height={15}
           />
-          <img
+          <Image
             src="/assets/images/camera.png"
             alt="camera"
             className="w-10 h-10 bottom-3 right-8 absolute"
+            width={10}
+            height={10}
           />
         </div>
       </div>

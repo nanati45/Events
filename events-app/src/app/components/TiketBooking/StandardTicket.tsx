@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const StandardTicket = () => {
@@ -12,15 +13,16 @@ const StandardTicket = () => {
         </div>
         <div className="flex gap-4 items-center">
           <button>
-            <img
+            <Image
               src="/assets/images/substract.png"
               alt="minus"
               className="w-8 h-8"
+              width={8} height={8}
             />
           </button>
           <p className="text-[20px] font-extrabold"> 1 </p>
           <button>
-            <img src="/assets/images/add.png" alt="plus" className="w-8 h-8" />
+            <Image src="/assets/images/add.png" alt="plus" className="w-8 h-8"  width={8} height={8} />
           </button>
         </div>
       </div>

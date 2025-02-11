@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Hostedby = () => {
@@ -6,10 +7,11 @@ const Hostedby = () => {
       <h1 className="font-bold text-[#2D2C2C] text-[18px]">Hosted By</h1>
       <div className="flex items-center gap-6">
         <div>
-          <img
+          <Image
             src="/assets/images/des.jpg"
             alt="logo"
             className="rounded-full w-16 h-16"
+            width={16} height={16}
           />
         </div>
         <div className="flex flex-col gap-3">

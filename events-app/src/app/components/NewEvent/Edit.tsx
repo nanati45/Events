@@ -1,20 +1,22 @@
 import React from "react";
 import EditDateandTime from "./EditDateandTime";
+import Image from "next/image";
 
 const Edit = () => {
   return (
     <div className="flex w-full flex-col items-center justify-center py-6 relative">
-      <img
+      <Image
         src="/assets/images/arrow.png"
         alt="arrow"
         className="absolute left-6 top-6 w-8 h-8"
+        width={8} height={8}
       />
       <div className="w-5/6 space-y-6">
         <h1 className="font-extrabold text-[#2D2C2C] text-[22px]">
           Create New Event
         </h1>
         <div className="text-center">
-          <img src="/assets/images/progress.png" alt="progress" />
+          <Image src="/assets/images/progress.png" alt="progress" />
         </div>
         <div className="space-y-3">
           <h1 className=" text-[#2d2c2c] text-[20px] pl-52">Event Details</h1>

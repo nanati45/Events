@@ -1,12 +1,14 @@
+import Image from "next/image";
 import React from "react";
 
 const Banner = () => {
   return (
     <div className="flex w-full flex-col items-center justify-center py-6 relative">
-      <img
+      <Image
         src="/assets/images/arrow.png"
         alt="arrow"
         className="absolute left-6 top-6 w-8 h-8"
+        width={10} height={10}
       />
       <div className="w-5/6 space-y-6">
         <div className="space-y-2">
@@ -17,7 +19,7 @@ const Banner = () => {
           <p className="font-semibold">Time</p>
         </div>
         <div className="text-center">
-          <img src="/assets/images/progress2.png" alt="progress" />
+          <Image src="/assets/images/progress2.png" alt="progress" />
         </div>
         <div className="space-y-3 mt-5">
           <h1 className=" text-[#2d2c2c] text-[20px]">Upload Image</h1>

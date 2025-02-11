@@ -3,12 +3,13 @@ import DateandTime from "../Description/DateandTime";
 import Location from "../Description/Location";
 import TicketInfo from "../Description/TicketInfo";
 import Description from "../Description/Description";
+import Image from "next/image";
 
 const ReviewEvent = () => {
   return (
     <div className="flex flex-col p-10 border items-center justify-center rounded-2xl w-full">
       <div className="mb-6 ">
-        <img src="/assets/images/eventpp.png" alt="banner" />
+        <Image src="/assets/images/eventpp.png" alt="banner" />
       </div>
       <div>
         <div className="flex">
