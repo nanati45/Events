@@ -1,10 +1,8 @@
 import React from "react";
 import DateandTime from "../Description/DateandTime";
 import Location from "../Description/Location";
-import BuyTicket from "../Description/BuyTicket";
 import TicketInfo from "../Description/TicketInfo";
 import Description from "../Description/Description";
-import Tags from "../Description/Tags";
 
 const ReviewEvent = () => {
   return (

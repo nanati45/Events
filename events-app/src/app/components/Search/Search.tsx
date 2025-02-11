@@ -9,7 +9,6 @@ import {
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [location, setLocation] = useState("Ethiopia");
 
   // Handle clearing the search term
   const clearSearch = () => {
